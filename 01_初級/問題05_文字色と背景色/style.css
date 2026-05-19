@@ -1,10 +1,7 @@
 /* ここに CSS を書いてください */
 
-body {
-}
+body {background-color:lightyellow;}
 
-h1 {
-}
+h1 {color:crimson;}
 
-p {
-}
+p {color:darkslategray;background-color:white;}

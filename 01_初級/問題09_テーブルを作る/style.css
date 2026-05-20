@@ -1,8 +1,5 @@
-table {
-}
+table {border-collapse: collapse;}
 
-th, td {
-}
+th, td {border: 1px solid #333; padding: 8px 16px;}
 
-th {
-}
+th {background-color: lightgray;}

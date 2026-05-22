@@ -1,1 +1,8 @@
-/* ここに CSS を書いてください */
+.notice {background-color: lightyellow;border-left: thick solid red;    
+}
+
+#main-title {color: navy;font-size: 36px;
+}
+
+.important {font-weight: bold;
+}

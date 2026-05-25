@@ -5,14 +5,22 @@ body { font-family: sans-serif; padding: 20px; }
   gap: 20px;
 }
 
-.img-round {
+.gallery img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
 }
 
-.img-circle {
+.img-round {border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-.img-filter {
+.img-circle {border-radius: 50%;
 }
 
-.img-filter:hover {
+.img-filter {filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.img-filter:hover {filter: grayscale(0%);
 }

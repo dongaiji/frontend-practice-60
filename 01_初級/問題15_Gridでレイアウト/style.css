@@ -1,7 +1,15 @@
 body { font-family: sans-serif; padding: 20px; }
 
-.grid {
+.grid {display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
 }
 
-.cell {
+.cell {background-color: mediumpurple;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
 }

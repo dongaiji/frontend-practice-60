@@ -1,20 +1,32 @@
 * { box-sizing: border-box; }
 body { margin: 0; font-family: sans-serif; }
 
-.nav {
+.nav {background: #1e293b;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
-.logo {
+.logo {font-size: 18px;
+    font-weight: bold;
 }
 
-.menu {
+.menu {display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .menu li {
 }
 
-.menu a {
+.menu a {color: white;
+    text-decoration: none;
+    padding: 0px 15px;
 }
 
-.menu a:hover {
+.menu a:hover {color: #f97316;
 }

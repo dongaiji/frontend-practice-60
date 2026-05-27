@@ -5,3 +5,62 @@ body {
   background: #fafafa;
   color: #111;
 }
+
+.site-header {
+  background: #0f172a;
+  color: white;
+  height: 80px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.synthesis-png {
+  width: 130px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+.name {
+  text-align: center;
+}
+
+.job {
+  text-align: center;
+}
+
+.about {
+  background: #f3f4f6;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  background: #e5e7eb;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.site-footer {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+  

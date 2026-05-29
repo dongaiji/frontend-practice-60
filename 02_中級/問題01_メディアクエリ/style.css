@@ -5,6 +5,11 @@ body {
   padding: 20px;
 }
 
+.cards {
+  display: flex;
+  gap: 20px
+}
+
 .card {
   background: #dbeafe;
   padding: 24px;
@@ -12,4 +17,13 @@ body {
   text-align: center;
 }
 
-/* ここにレスポンシブなスタイルを書く */
+@media (max-width: 768px){
+  .cards {flex-direction: column;}
+}
+  
+@media (max-width: 480px) {
+  .card { padding: 12px;
+  }
+  body { background: #fff7ed;
+  }
+}

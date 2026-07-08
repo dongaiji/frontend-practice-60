@@ -7,10 +7,19 @@ body { font-family: sans-serif; margin: 0; }
 }
 
 .btn {
+  background-color: #22c55e;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 .btn:hover {
+  background-color: #15803d;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
 .btn:active {
+  transform: translateY(1px);
 }
